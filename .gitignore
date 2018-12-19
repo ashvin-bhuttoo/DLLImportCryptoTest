@@ -1,0 +1,6 @@
+*.opendb
+DLLImportCryptoTest/bin/Debug/*
+ipch
+.vs
+*.db
+

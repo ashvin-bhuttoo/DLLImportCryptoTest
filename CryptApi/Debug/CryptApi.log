@@ -1,0 +1,10 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Stdafx.cpp
+  CryptApi.cpp
+c:\users\ashvin.bhuttoo\documents\visual studio 2015\projects\dllimportcryptotest\cryptapi\cryptapi.cpp(32): warning C4297: 'get_rs_mask': function assumed not to throw an exception but does
+  c:\users\ashvin.bhuttoo\documents\visual studio 2015\projects\dllimportcryptotest\cryptapi\cryptapi.cpp(32): note: __declspec(nothrow), throw(), noexcept(true), or noexcept was specified on the function
+c:\users\ashvin.bhuttoo\documents\visual studio 2015\projects\dllimportcryptotest\cryptapi\cryptapi.cpp(79): warning C4297: 'get_ls_mask': function assumed not to throw an exception but does
+  c:\users\ashvin.bhuttoo\documents\visual studio 2015\projects\dllimportcryptotest\cryptapi\cryptapi.cpp(79): note: __declspec(nothrow), throw(), noexcept(true), or noexcept was specified on the function
+     Creating library ..\DLLImportCryptoTest\bin\Debug\CryptApi.lib and object ..\DLLImportCryptoTest\bin\Debug\CryptApi.exp
+  CryptApi.vcxproj -> c:\Users\ashvin.bhuttoo\documents\visual studio 2015\Projects\DLLImportCryptoTest\CryptApi\..\DLLImportCryptoTest\bin\Debug\CryptApi.dll
+  CryptApi.vcxproj -> ..\DLLImportCryptoTest\bin\Debug\CryptApi.pdb (Partial PDB)
