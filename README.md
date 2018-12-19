@@ -10,5 +10,5 @@ public static extern void crypt(IntPtr buf, int msg_len, bool decrypt = false);
 extern "C" __declspec(dllexport) void crypt(char* buf, int msg_len, bool decrypt);
 
 <b>Unmanaged memory is used to work with the unmanaged type char*, The Marshal class was used to Allocate and Populate the value at the specified IntPtr -> buf</b><br/>
-
-
+IntPtr buf = Marshal.AllocHGlobal(msg.Length);<br/>
+Marshal.WriteByte(buf + k, 0x00, msg[k]);
